@@ -1,15 +1,16 @@
-\documentclass[a4paper,french,11pt]{moderncv}
+\documentclass[a4paper,french,10pt]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\moderncvicons{awesome}
 
 \usepackage{babel}
 \frenchsetup{ItemLabelii=\textendash}
 
-\moderncvstyle{classic}
-\moderncvcolor{blue}
-
 \usepackage[default]{opensans}
 
 \usepackage[scale=0.85]{geometry}
-\setlength{\hintscolumnwidth}{2.5cm}
+\setlength{\hintscolumnwidth}{2.6cm}
+\recomputelengths{}
 
 % Personal data
 \name{Arnaud}{Rocher}
@@ -17,75 +18,76 @@
 \address{38 rue Platon}{72000 Le Mans}
 \phone[mobile]{06 79 93 01 17}
 \email{arnaud.roche3@gmail.com}
+\social[github]{cailloumajor}
 \extrainfo{34 ans --- Permis B}
 
 \begin{document}
-\maketitle
+\maketitle{}
 
 \section{Expérience professionnelle}
 \cventry{2013--auj.}%
-  {Automaticien}{NTN Transmissions Europe}{Allonnes (72)}{}{%
-    \begin{itemize}
-      \item Amélioration et assistance au dépannage de moyens d'usinage et
-      traitement thermique sur les sites d'Allonnes et Sibiu (Roumanie);
-      \item Participation aux projets d'acquisition de moyens neufs, pour les
-      sites d'Allonnes et Sibiu:
-      \begin{itemize}
-        \item définition du besoin, rédaction du cahier des charges;
-        \item étude et choix d'offres techniques;
-        \item suivi au cours de la construction (validations statique et
-        dynamique chez le fournisseur);
-        \item suivi du démarrage et réception en fin de mise en route.
-      \end{itemize}
-    \end{itemize}
-  }
+{Automaticien}{NTN Transmissions Europe}{Allonnes (72)}{}{%
+  \begin{itemize}
+    \item Amélioration et assistance au dépannage de moyens d'usinage et
+          traitement thermique sur les sites d'Allonnes et Sibiu (Roumanie);
+    \item Participation aux projets d'acquisition de moyens neufs, pour les
+          sites d'Allonnes et Sibiu:
+          \begin{itemize}
+            \item définition du besoin, rédaction du cahier des charges;
+            \item étude et choix d'offres techniques;
+            \item suivi au cours de la construction (validations statique et
+                  dynamique chez le fournisseur);
+            \item suivi du démarrage et réception en fin de mise en route.
+          \end{itemize}
+  \end{itemize}
+}
 \cventry{2011--2013}%
-  {Technicien de maintenance}{NTN Transmissions Europe}{Allonnes (72)}{}{%
-    \begin{itemize}
-      \item Suivi des pannes longues (extraction GMAO, analyse avec méthode
-      Maxer);
-      \item Modifications d'automatisme sur moyens de tournage et rectification.
-    \end{itemize}
-  }
+{Technicien de maintenance}{NTN Transmissions Europe}{Allonnes (72)}{}{%
+  \begin{itemize}
+    \item Suivi des pannes longues (extraction GMAO, analyse avec méthode
+          Maxer);
+    \item Modifications d'automatisme sur moyens de tournage et rectification.
+  \end{itemize}
+}
 \cventry{2005--2011}%
-  {Dépanneur électro-mécanicien}{NTN Transmissions Europe}{Allonnes (72)}{}{%
-    \begin{itemize}
-      \item Maintenance préventive et dépannage (dont 5 ans en équipe de nuit)
-      sur moyens d'usinage, de traitement thermique et de sous-assemblage.
-    \end{itemize}
-  }
+{Dépanneur électro-mécanicien}{NTN Transmissions Europe}{Allonnes (72)}{}{%
+  \begin{itemize}
+    \item Maintenance préventive et dépannage (dont 5 ans en équipe de nuit)
+          sur moyens d'usinage, de traitement thermique et de sous-assemblage.
+  \end{itemize}
+}
 \cventry{2003--2005}%
-  {Apprenti}{Getelectric}{Grenoble}{}{%
-    \begin{itemize}
-      \item Étude et réalisation d'installations électriques tertiaires.
-    \end{itemize}
-  }
+{Apprenti}{Getelectric}{Grenoble}{}{%
+  \begin{itemize}
+    \item Étude et réalisation d'installations électriques tertiaires.
+  \end{itemize}
+}
 \cventry{2001--2003}%
-  {Apprenti}{Auto Châssis International (ex-Renault)}{Le Mans}{}{%
-    \begin{itemize}
-      \item Maintenance préventive et curative sur moyens d'usinage et
-      d'assemblage.
-    \end{itemize}
-  }
+{Apprenti}{Auto Châssis International (ex-Renault)}{Le Mans}{}{%
+  \begin{itemize}
+    \item Maintenance préventive et curative sur moyens d'usinage et
+          d'assemblage.
+  \end{itemize}
+}
 
 \section{Formation}
 \cventry{2003--2005}%
-  {B.T.S. Électrotechnique}{C.F.A.I. Maison de la production}{Moirans (38)
-  }%
-  {\textit{14,9 / 20}}{}
+{B.T.S. Électrotechnique}{C.F.A.I. Maison de la production}{Moirans (38)
+}%
+{\textit{14,9 / 20}}{}
 \cventry{2001--2003}%
-  {Bac Pro Équipements et Installations Électriques}{C.F.A.I. de l'A.F.P.}{Le Mans}%
-  {\textit{17,06 / 20}}{}
+{Bac Pro Équipements et Installations Électriques}{C.F.A.I. de l'A.F.P.}{Le Mans}%
+{\textit{17,06 / 20}}{}
 \cventry{1999--2001}%
-  {B.E.P. Électrotechnique}{E.T.P. de l'A.F.P.}{Le Mans}%
-  {\textit{17,28 / 20}}{}
+{B.E.P. Électrotechnique}{E.T.P. de l'A.F.P.}{Le Mans}%
+{\textit{17,28 / 20}}{}
 
 \section{Compétences}
 \subsection{Automatisme / Robotique}
 \cvitem{Siemens}{Automates S7--300/1200/1500 (ateliers logiciels STEP7 V5.x et
-TIA Portal), commandes numériques 840D pl/sl, sécurité programmée (S7
-Distributed Safety, STEP7 Safety, SINUMERIK Safety Integrated SPL), réseaux
-PROFIBUS et PROFINET, IHM (logiciels ProTool, WinCC, HMI-PRO).}
+  TIA Portal), commandes numériques 840D pl/sl, sécurité programmée (S7
+  Distributed Safety, STEP7 Safety, SINUMERIK Safety Integrated SPL), réseaux
+  PROFIBUS et PROFINET, IHM (logiciels ProTool, WinCC, HMI-PRO).}
 \cvitem{KUKA}{Contrôleurs robots KRC1, KRC2, et KRC4.}  % chktex 19
 \cvitem{Autres}{Automates Mitsubishi A/Q, Robots et CN Fanuc.}
 

@@ -27,9 +27,12 @@ RUN set -eux; \
 ENV PATH="${PATH}:/usr/local/texlive/2021/bin/x86_64-linux"
 RUN set -eux; \
     tlmgr install \
+        academicons \
         arydshln \
         babel-french \
+        fontawesome5 \
         fontaxes \
+        hyphen-french \
         latexindent \
         latexmk \
         marvosym \

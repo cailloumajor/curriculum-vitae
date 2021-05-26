@@ -15,6 +15,9 @@
         "[latex]": {
             "editor.formatOnSave": true
         },
+        "files.associations": {
+            ".latexmkrc": "perl"
+        },
         "latex-workshop.chktex.enabled": true,
         "latex-workshop.view.pdf.viewer": "tab"
 	},
