@@ -12,6 +12,16 @@
 \setlength{\hintscolumnwidth}{2.6cm}
 \recomputelengths{}
 
+\usepackage{datenumber}
+\usepackage{fp}
+\newcounter{birth}
+\newcounter{today}
+\setmydatenumber{birth}{1984}{12}{09}
+\setmydatenumber{today}{\the\year}{\the\month}{\the\day}
+\FPsub\result{\thetoday}{\thebirth}
+\FPdiv\myage{\result}{365.2425}
+\FPround\myage{\myage}{0}
+
 % Personal data
 \name{Arnaud}{Rocher}
 \title{Automaticien}
@@ -19,7 +29,7 @@
 \phone[mobile]{06 79 93 01 17}
 \email{arnaud.roche3@gmail.com}
 \social[github]{cailloumajor}
-\extrainfo{34 ans --- Permis B}
+\extrainfo{\myage~ans --- Permis B}
 
 \begin{document}
 \maketitle{}
