@@ -32,10 +32,11 @@ RUN set -eux; \
         babel-french \
         fontawesome5 \
         fontaxes \
+        fontspec \
         hyphen-french \
         latexindent \
         latexmk \
-        marvosym \
+        luatexbase \
         moderncv \
         multirow \
         opensans \
