@@ -38,11 +38,13 @@ RUN set -eux; \
         hyphen-french \
         latexindent \
         latexmk \
+        lualatex-math \
         luatexbase \
         moderncv \
         multirow \
         opensans \
         pgf \
+        unicode-math \
         xkeyval \
     ; \
     chown -R vscode:vscode /usr/local/texlive;
