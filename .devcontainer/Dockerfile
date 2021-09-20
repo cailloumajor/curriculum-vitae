@@ -31,7 +31,6 @@ RUN set -eux; \
         academicons \
         arydshln \
         babel-french \
-        datenumber \
         fontawesome5 \
         fontaxes \
         fontspec \
