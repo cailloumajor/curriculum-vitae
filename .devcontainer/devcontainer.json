@@ -29,6 +29,7 @@
                     ".latexmkrc": "perl"
                 },
                 "latex-workshop.chktex.enabled": true,
+                "latex-workshop.formatting.latex": "latexindent",
                 "latex-workshop.latex.recipe.default": "latexmk (latexmkrc)",
                 "latex-workshop.view.pdf.viewer": "tab"
             },
