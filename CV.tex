@@ -1,6 +1,6 @@
 \documentclass[a4paper,french,10pt]{moderncv}
-\moderncvstyle{classic}
 \moderncvcolor{blue}
+\moderncvstyle{classic}
 \moderncvicons{awesome}
 
 \usepackage{babel}
@@ -14,7 +14,7 @@
 
 % Personal data
 \name{Arnaud}{Rocher}
-\title{Développeur full-stack}
+\title{Développeur Rust}
 \born{09 décembre 1984}
 \address{38 rue Platon}{72000 Le Mans}
 \phone[mobile]{06 79 93 01 17}
@@ -26,20 +26,21 @@
 \maketitle{}
 
 \section{Expérience professionnelle}
-\cventry{2022--auj.}%
+\cventry{11/2023--auj.}%
+{Développeur Rust}{Nano Corp.}{Paris}{}{%
+  \begin{itemize}
+    \item Maintenance et amélioration des éléments du périmètre « core », comprenant la sonde réseau;
+    \item Développement d'un client Rust pour la base de données \textit{ClickHouse}, utilisant le protocole natif
+          TCP (rétro-ingénierie du protocole et du code source du client officiel en C++).
+  \end{itemize}
+}
+\cventry{2022--11/2023}%
 {Développeur solutions numériques industrielles}{NTN Transmissions Europe}{Allonnes (72)}{}{%
   \begin{itemize}
-    \item Développement et intégration d'une solution de collecte, affichage
-          et analyse de données:
-          \begin{itemize}
-            \item architecture type microservices (conteneurs Docker), sur serveur virtualisé;
-            \item collecte de données via le protocole OPC-UA;
-            \item bases de données MongoDB et InfluxDB;
-            \item messagerie temps réel Centrifugo;
-            \item visualisation et analyse avec Grafana;
-            \item développements back-end avec les langages Rust et Go;
-            \item développement front-end Vue.js / Quasar framework et WASM (Rust).
-          \end{itemize}
+    \item Développement et intégration d'une solution full-stack de collecte, affichage
+          et analyse de données de lignes de production industrielles.\\
+          Technologies mises en œuvre: OPC-UA, MongoDB, InfluxDB, Centrifugo, Grafana, Docker.\\
+          Langages ou frameworks utilisés: Rust (dont WASM), Go, Vue.js.
   \end{itemize}
 }
 \cventry{2013--2022}%
@@ -98,14 +99,15 @@
   KRC4; Mitsubishi A/Q; Robots et CN Fanuc.}
 \subsection{Informatique}
 \cvitem{Administration}{Systèmes Linux (Debian), réseau Ethernet, Docker, virtualisation.}
-\cvitem{Programmation}{Python, HTML, CSS, Javascript/Typescript, Vue.js, Rust, Go, C/C++, informatique
-  embarquée.}
+\cvitem{Programmation}{Rust, Go, Python, C, C++, HTML, CSS, Javascript/Typescript, Vue.js, informatique
+  embarquée.
+}
 
 \subsection{Langues}
 \cvitem{Anglais}{Lu, parlé, écrit (technique).}
 
 \section{Centres d'intérêt}
-\cvitem{}{Informatique, sports mécaniques, langues étrangères (Italien).}
+\cvitem{}{Informatique, électronique, sports mécaniques, langues étrangères (Italien).}
 
 \vfill
 \enlargethispage{\footskip}
